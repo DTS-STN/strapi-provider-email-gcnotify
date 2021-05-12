@@ -1,0 +1,39 @@
+{
+  "name": "strapi-provider-email-gcnotify",
+  "version": "1.0.0",
+  "description": "Strapi CMS Email Provider for GC Notify Service",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "prettier --write \"lib/**/*.{js,jsx,ts,tsx,json,md}\"",
+    "prepare": "husky install"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "strapi": {
+    "isProvider": true
+  },
+  "keywords": [
+    "email",
+    "strapi",
+    "gcnotify"
+  ],
+  "author": {
+    "name": "Omar Nasr",
+    "email": "omar@omarnasr.ca",
+    "url": "https://omarnasr.ca"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "notifications-node-client": "^5.1.0"
+  },
+  "devDependencies": {
+    "husky": "^6.0.0",
+    "prettier": "^2.3.0"
+  }
+}
