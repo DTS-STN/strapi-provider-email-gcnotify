@@ -43,7 +43,7 @@ Follow the example below to integrate this provider with Strapi
 module.exports = ({ env }) => ({
   // ...
   email: {
-    provider: 'sendgrid',
+    provider: 'gcnotify',
     providerOptions: {
       apiKey: env('GC_NOTIFY_API_KEY'),
       apiUrl: env('GC_NOTIFY_API_URL'),
