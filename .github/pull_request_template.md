@@ -3,10 +3,6 @@
 Description of the task you completed and/or features added. If it is a visual component or feature,
 add a screenshot(s) of it.
 
-## Acceptance Criteria
-
-Get the acceptance criteria for the story and/or task you are working on and put it all here.
-
 ## Test Instructions
 
 1. Steps on...
