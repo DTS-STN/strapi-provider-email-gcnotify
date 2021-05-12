@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-email-gcnotify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Strapi CMS Email Provider for GC Notify Service",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
