@@ -32,6 +32,10 @@
   "dependencies": {
     "notifications-node-client": "^5.1.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DTS-STN/strapi-provider-email-gcnotify"
+  },
   "devDependencies": {
     "husky": "^6.0.0",
     "prettier": "^2.3.0"
